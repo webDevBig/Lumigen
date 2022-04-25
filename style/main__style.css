@@ -1272,6 +1272,15 @@ footer .footer_menu_item {
     .section1 .row_box_mob {
         flex-wrap: wrap;
     }
+    .section1 {
+        background-position: 49% -10%;
+        background-image: url(../img/section1_bg_mob.png);
+        background-size: 233% 50%;
+    }
+    .section2 .logos_img_mob
+    {
+        width: 100%;
+    }
 
     .splide__arrow {
         background-color: transparent;
@@ -1289,11 +1298,11 @@ footer .footer_menu_item {
     }
 
     .splide__arrow--prev {
-        left: -2em;
+        left: -1.8em;
     }
 
     .splide__arrow--next {
-        right: -2em;
+        right: -1.8em;
     }
 
     .splide__arrow:disabled {
